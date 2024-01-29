@@ -5,12 +5,13 @@
   }
 
 
-  .links {
-    display: inline;
+  li {
+
+    padding-bottom: 6px;
 
   }
 
   .list {
-    margin: 0px;
+    padding-left: 16px;
 
   }
