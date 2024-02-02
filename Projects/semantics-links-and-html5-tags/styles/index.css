@@ -73,3 +73,37 @@ h2 {
 h1 {
   font-size: 24px;
 }
+
+
+.browsers {
+  margin-top: 16px;
+  max-width: 160px;
+}
+
+.section {
+margin-top: 32px;
+}
+
+header {
+  margin-top: 16px;
+}
+
+.list {
+  padding-left: 16px;
+
+}
+
+li {
+
+  padding-bottom: 6px;
+
+}
+
+.exampleImg {
+  max-width: 100%;
+}
+
+.iframeTitle {
+  margin-top: 32px;
+  margin-bottom: 8px;
+}
