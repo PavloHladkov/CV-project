@@ -1,0 +1,64 @@
+/* Параметри бордер боксу */
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Inter";
+  max-width: 768px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+
+.home {
+  padding-top: 16px;
+  padding-bottom: 8px;
+}
+
+/* Парамети фігур */
+.figure {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 27px;
+}
+
+.ellipse {
+  border-radius: 50%;
+}
+
+.figures-div {
+  display: block;
+  padding-left: 66px;
+  margin-top: 28px;
+}
+
+/* Кольори */
+.red-div-bg {
+  background-color: #ff0000;
+}
+
+.green-div-bg {
+  background-color: #00ff00;
+}
+
+.blue-div-bg {
+  background-color: #0000ff;
+}
+
+.grey-div-bg {
+  background-color: #c3c3c3;
+}
+
+/* Параметри */
+
+.text {
+  margin-left: 83px;
+  margin-bottom: 40px;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 400;
+  max-width: 500px;
+}
