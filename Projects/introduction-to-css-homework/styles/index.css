@@ -1,3 +1,9 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
 .wrap {
   width: 100%;
   display: inline-flex;
@@ -5,12 +11,20 @@
   margin-bottom: 100px;
 }
 
+body {
+  font-family: "Open Sans", sans-serif;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+}
+
 a {
   text-decoration: none;
   color: #828282;
 }
 
-.currentPage a {
+.current a {
   color: #070707;
 }
 
@@ -29,16 +43,11 @@ a:hover {
   justify-content: center;
   padding: 25px 0px;
   border-bottom: 1px solid #828282;
+  gap: 40px;
 }
 
-.menuItem {
-  margin: 0 20px;
-}
-
-body {
-  font-family: "Open Sans", sans-serif;
-  width: 100%;
-  margin: 0px;
+.menu-item {
+  margin: 0;
 }
 
 h1 {
@@ -48,7 +57,7 @@ h1 {
   margin-bottom: 50px;
 }
 
-.myPhoto {
+.my-photo {
   width: 100%;
   margin: 0px;
 }
@@ -56,22 +65,38 @@ h1 {
 h2 {
   font-weight: 700;
   font-size: 34px;
+  padding: 0px;
+  margin: 0px;
 }
 
-.descDiv {
-  font-size: 18px;
-  max-width: 480px;
-  margin: auto;
-  display: inline-flex;
-  flex-direction: column;
-  gap: 30px;
-}
-
-.sectionDiv {
+.section-div {
   width: 100%;
-  display: flexbox;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  align-content: center;
   padding: 100px 0;
   text-align: center;
+}
+
+.section-content {
+  width: 100%;
+  max-width: 970px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+
+.desc-div {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  font-size: 18px;
+  line-height: 25px;
+  max-width: 480px;
+  margin: auto;
 }
 
 .block {
@@ -81,6 +106,179 @@ h2 {
   max-width: 970px;
 }
 
-.bgGrey {
+.bg-div-color {
   background-color: #f6f6f6;
+}
+
+.hero-div {
+  display: flex;
+  padding: 0;
+}
+
+.title-div {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.skills-items {
+  max-width: 970px;
+  display: flex;
+  align-items: center;
+  gap: 97px;
+}
+
+.skills-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+  width: 100%;
+}
+
+.skills-img-title-div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+}
+
+.skills-img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+}
+
+.skills-title {
+  font-family: "open sans" sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  color: #828282;
+  letter-spacing: 2%;
+  line-height: 19px;
+}
+
+.skills-rates {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  direction: rtl;
+}
+
+.skills-rate {
+  width: 26px;
+  height: 26px;
+}
+
+.skills-rate.active .rate-star path {
+  fill: #070707;
+}
+
+.skills-rate.passive .rate-star path {
+  fill: #e5e5e5;
+}
+
+/*! Анімація іконок */
+
+.skills-rate.passive:hover .rate-star path {
+  fill: #070707;
+}
+
+.skills-rates > .skills-rate:hover ~ .skills-rate .rate-star path {
+  fill: #070707;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 70px;
+  max-width: 970px;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.project a {
+  text-decoration: underline;
+}
+
+.project-img-div {
+  display: flex;
+  width: 100%;
+}
+
+.project-img {
+  display: flex;
+  width: 100%;
+}
+
+.section-div footer {
+  gap: 60px;
+}
+
+.button-and-social-icons-div {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.button-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 44px;
+  padding: 0 16px;
+  line-height: 1;
+  font-weight: bold;
+  font-size: 18px;
+  letter-spacing: 1.8px;
+  color: #fff;
+  background-color: #070707;
+  border-radius: 100px;
+  border: #070707 1px solid;
+}
+
+button:hover {
+  color: #070707;
+  background-color: #fff;
+}
+
+.social-icons-div {
+  display: flex;
+  gap: 50px;
+}
+
+.social-icon-div {
+  max-width: 40px;
+  max-height: 40px;
+}
+
+.social-icon-div .social-icon path {
+  fill: #070707;
+}
+
+.social-icon-div:hover .social-icon path {
+  fill: #828282;
+}
+
+.footer-text-div {
+  font-size: 14px;
+  font-weight: normal;
+  color: #828282;
 }
