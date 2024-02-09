@@ -125,8 +125,10 @@ h2 {
   max-width: 970px;
   display: flex;
   align-items: center;
-  gap: 97px;
   flex-wrap: wrap;
+  gap: 80px;
+  justify-content: space-evenly;
+  padding: 0 16px;
 }
 
 .skills-item {
@@ -134,7 +136,7 @@ h2 {
   flex-direction: column;
   align-items: center;
   gap: 60px;
-  width: 100%;
+  width: 169px;
 }
 
 .skills-img-title-div {
@@ -173,6 +175,7 @@ h2 {
 .skills-rate {
   width: 26px;
   height: 26px;
+  cursor: pointer;
 }
 
 .skills-rate.active .rate-star path {
