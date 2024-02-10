@@ -287,18 +287,16 @@ button:hover {
   color: #828282;
 }
 
-
 .home {
   width: 100%;
-  max-width: 970px;;
+  max-width: 970px;
   margin: 0 auto;
   padding-top: 12px;
   padding-bottom: 12px;
-
 }
 
 .home a {
-  color:#828282;
+  color: #828282;
 }
 
 .home a:hover {
