@@ -19,12 +19,21 @@ body {
   display: flex;
 }
 
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 30px;
+  width: 100%;
+}
+
 a {
   text-decoration: none;
   color: #828282;
 }
 
-.current a {
+.current-link {
   color: #070707;
 }
 
@@ -39,7 +48,6 @@ a:hover {
   max-width: 970px;
   font-size: 18px;
   text-decoration: none;
-  display: flex;
   justify-content: center;
   padding: 25px 0px;
   border-bottom: 1px solid #828282;
