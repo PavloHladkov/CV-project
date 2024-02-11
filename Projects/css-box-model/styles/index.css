@@ -11,6 +11,7 @@ body {
   font-size: 16px;
   font-weight: 400;
   color: #2f281e;
+  overflow: hidden;
 }
 
 a {
@@ -164,7 +165,7 @@ h1 {
   padding-top: 100px;
   padding-bottom: 178px;
   position: relative;
-  overflow: hidden;
+
   
 }
 
