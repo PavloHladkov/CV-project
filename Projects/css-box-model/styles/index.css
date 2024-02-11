@@ -163,6 +163,7 @@ h1 {
   align-items: center;
   padding-top: 100px;
   padding-bottom: 100px;
+  position: relative;
 }
 
 h2 {
@@ -235,4 +236,11 @@ h4 {
 
 .simple-text {
   line-height: 26px;
+}
+
+.tools-bg {
+  position: absolute;
+  bottom: 0px;
+  z-index: -1;
+  width: 100vw;
 }
