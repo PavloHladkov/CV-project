@@ -162,8 +162,10 @@ h1 {
   flex-direction: column;
   align-items: center;
   padding-top: 100px;
-  padding-bottom: 100px;
+  padding-bottom: 178px;
   position: relative;
+  overflow: hidden;
+  
 }
 
 h2 {
@@ -240,7 +242,7 @@ h4 {
 
 .tools-bg {
   position: absolute;
-  bottom: 0px;
+  bottom: 100px;
   z-index: -1;
   width: 100vw;
 }
