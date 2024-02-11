@@ -204,21 +204,20 @@ h2 {
 }
 
 .violet-bg {
-  background-color: #7752BE;
+  background-color: #7752be;
 }
 
 .orange-bg {
-  background-color: #FAB005;
+  background-color: #fab005;
 }
 
 .red-bg {
-  background-color: #F03E3D;
+  background-color: #f03e3d;
 }
 
 .blue-bg {
-  background-color: #4DADF7;
+  background-color: #4dadf7;
 }
-
 
 .fa-solid {
   color: white;
@@ -237,4 +236,3 @@ h4 {
 .simple-text {
   line-height: 26px;
 }
-
