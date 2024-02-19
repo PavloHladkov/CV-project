@@ -3,52 +3,72 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Box Model</title>
+    <link rel="icon" type="image/x-icon" href="./assets/images/favicon.ico" />
+
+    <!-- * Icons -->
+    <script
+      src="https://kit.fontawesome.com/ad64552b10.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- * Styles -->
+    <!-- Normalize -->
     <link rel="stylesheet" href="./styles/normalize.css" />
-    <link rel="stylesheet" href="./styles/index.css" />
+    <!-- Variables -->
+    <link rel="stylesheet" href="./styles/variables.css" />
+    <!-- Main -->
+    <link rel="stylesheet" href="./styles/main.css" />
+    <!-- Local -->
+    <link rel="stylesheet" href="./index.css" />
+
+    <!-- * Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
-    <title>CSS Box Model</title>
-    <link rel="icon" type="image/x-icon" href="./assets/images/favicon.ico" />
-    <script
-      src="https://kit.fontawesome.com/ad64552b10.js"
-      crossorigin="anonymous"
-    ></script>
   </head>
   <body>
     <div class="app">
       <div class="wrapper">
+        <!-- * Home button -->
+
         <nav>
           <div class="home">
             <a href="../../index.html">← Home</a>
           </div>
         </nav>
-        <main>
-          <header>
-            <nav>
-              <div class="header-div">
-                <a class="logo" href="#"
-                  ><img src="./assets/images/Logo.svg" alt="Productly logo"
-                /></a>
 
-                <ul class="menu">
-                  <li><a class="menu-item current" href="#">Product</a></li>
-                  <li><a class="menu-item" href="#">Customers</a></li>
-                  <li><a class="menu-item" href="#">Pricing</a></li>
-                  <li><a class="menu-item" href="#">Resources</a></li>
-                </ul>
+        <!-- * Header -->
 
-                <div class="menu-buttons">
-                  <a class="menu-button inline-button" href="#">Sign In</a>
-                  <a class="menu-button fill-button" href="#">Sign Up</a>
-                </div>
+        <header>
+          <nav>
+            <div class="header-div">
+              <a class="logo" href="#"
+                ><img src="./assets/images/Logo.svg" alt="Productly logo"
+              /></a>
+
+              <ul class="menu">
+                <li><a class="menu-item current" href="#">Product</a></li>
+                <li><a class="menu-item" href="#">Customers</a></li>
+                <li><a class="menu-item" href="#">Pricing</a></li>
+                <li><a class="menu-item" href="#">Resources</a></li>
+              </ul>
+
+              <div class="menu-buttons">
+                <a class="menu-button inline-button" href="#">Sign In</a>
+                <a class="menu-button fill-button" href="#">Sign Up</a>
               </div>
-            </nav>
-          </header>
+            </div>
+          </nav>
+        </header>
 
+        <!-- * Main -->
+
+        <main>
+          <!-- * Hero block -->
           <section>
             <div class="hero">
               <div class="hero-text-div">
@@ -68,6 +88,8 @@
               </div>
             </div>
           </section>
+
+          <!-- * Tools block -->
           <section>
             <div class="block tools-block">
               <h2 class="header-centered">
@@ -127,8 +149,11 @@
               />
             </div>
           </section>
-          <footer></footer>
         </main>
+
+        <!-- * Footer -->
+
+        <footer></footer>
       </div>
     </div>
   </body>
