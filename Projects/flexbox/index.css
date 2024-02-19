@@ -115,8 +115,10 @@
   max-width: 644px;
 }
 
-.block {
+.overflow { 
+  overflow: hidden;
 }
+
 
 .tools-block {
   display: flex;

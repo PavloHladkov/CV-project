@@ -18,7 +18,6 @@ body {
   font-size: var(--fs-base);
   color: var(--c-black);
   min-height: 100vh;
-  overflow: hidden;
 }
 
 img {
@@ -61,6 +60,7 @@ p {
   max-width: 1230px;
   margin: 0 auto;
   width: 100%;
+
 }
 
 .link {
