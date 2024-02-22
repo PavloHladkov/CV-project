@@ -3,37 +3,149 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Box Model</title>
+
+    <!-- * Styles -->
     <link rel="stylesheet" href="./styles/index.css" />
+
+    <!-- * Icons -->
+    <link rel="stylesheet" href="./styles/weather-icons-wind.min.css" />
+    <link rel="stylesheet" href="./styles/weather-icons.min.css" />
+
+    <!-- * Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
       rel="stylesheet"
     />
-    <title>CSS Box Model</title>
-    <link rel="icon" type="image/x-icon" href="./assets/images/favicon.ico" />
   </head>
   <body>
     <div class="app">
-        <nav>
-          <div class="home wrapper">
-            <a href="../../index.html">← Home</a>
+      <!-- * Header -->
+
+      <header class="header">
+        <div class="wrapper header-wrapper"></div>
+      </header>
+
+      <!-- * Main -->
+
+      <main>
+        <div class="content">
+          <div class="container">
+            <div class="title">
+              CSS Weather Forecast <i class="wi wi-day-sleet-storm"></i>
+            </div>
+            <div class="wrap">
+              <div class="row">
+                <div class="col col-6">
+                  <div class="item light-blue">
+                    <div class="item-title">Lisbon</div>
+                    <div class="item-degrees">
+                      21°C <i class="wi wi-day-sleet-storm"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="col col-3">
+                  <div class="item turquoise">
+                    <div class="item-title">Paris</div>
+                    <div class="item-degrees">
+                      11°C <i class="wi wi-day-sleet-storm"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="col col-3">
+                  <div class="item strikemaster">
+                    <div class="item-title">Belgrad</div>
+                    <div class="item-degrees">
+                      15°C <i class="wi wi-day-sleet-storm"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col col-3">
+                  <div class="item dark-red">
+                    <div class="item-title">Venice</div>
+                    <div class="item-degrees">
+                      21°C <i class="wi wi-day-sleet-storm"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="col col-3">
+                  <div class="item light-red">
+                    <div class="item-title">Tel-Avive</div>
+                    <div class="item-degrees">
+                      32°C <i class="wi wi-day-sleet-storm"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="col col-3">
+                  <div class="item yellow">
+                    <div class="item-title">Cair</div>
+                    <div class="item-degrees">
+                      21°C <i class="wi wi-day-sleet-storm"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="col col-3">
+                  <div class="item light-green">
+                    <div class="item-title">New-York</div>
+                    <div class="item-degrees">
+                      17°C <i class="wi wi-day-sleet-storm"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col col-3">
+                  <div class="item heavy-green">
+                    <div class="item-title">New-Delhi</div>
+                    <div class="item-degrees">
+                      17°C <i class="wi wi-day-sleet-storm"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="col col-6">
+                  <div class="item pink">
+                    <div class="item-title">San-Francisco</div>
+                    <div class="item-degrees">
+                      15°C <i class="wi wi-day-sleet-storm"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="col col-3">
+                  <div class="item green">
+                    <div class="item-title">Tokyo</div>
+                    <div class="item-degrees">
+                     8°C <i class="wi wi-day-sleet-storm"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col col-12">
+                  <div class="item violet">
+                    <div class="item-title">Sydney</div>
+                    <div class="item-degrees">
+                      25°C <i class="wi wi-day-sleet-storm"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="bottom-text">
+              Have a nice day and don't forget umbrella if you are in New Delhi now!
+            </div>
           </div>
-        </nav>
-        <header>
+        </div>
+      </main>
 
-        </header>
-        <main>
-          <div class="">
+      <!-- * Footer -->
 
-          </div>
-        </main>
-
-
-        
-         
-          <footer></footer>
-
+      <footer>
+       
+      </footer>
     </div>
   </body>
 </html>

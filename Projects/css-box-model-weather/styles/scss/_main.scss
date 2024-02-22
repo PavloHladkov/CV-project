@@ -1,0 +1,77 @@
+/* * Global  */
+
+// * {
+//   /* TODO -< Remove */
+//   border: 1px solid red;
+//   box-sizing: border-box;
+//   padding: 0;
+//   margin: 0;
+// }
+
+*::selection {
+
+}
+
+body {
+  background-color: var(--c-light-blue);
+  color: var(--c-white);
+  font-family: 'Nunito Sans';
+  font-weight: 300;
+  min-height: 100vh;
+  font-size: 22px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0;
+  cursor: default;
+  margin-top: 0;
+}
+
+h1 {
+
+}
+
+p {
+  cursor: default;
+}
+
+/* * Helpers */
+.wrapper {
+  padding-right: 15px;
+  padding-left: 15px;
+  max-width: 1230px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.link {
+ 
+}
+
+.link:hover {
+  
+}
+
